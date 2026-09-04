@@ -7,7 +7,7 @@ about:
   head: 4e03379
   archived: true
   latestVersion: v0.0.12
-  collectedAt: 2026-09-04T19:55:39Z
+  collectedAt: 2026-09-04T20:48:16Z
 timeline:
   created: 2023-11-10
   lastCommit: 2024-08-08
@@ -82,5 +82,38 @@ total:
   openIssue: 1
   commit: 126
 ---
+path: /home/runner/.x-repo/github.com/scmmishra/slick-deploy
+collectedAt: 2026-09-04T20:48:17Z
+loc:
+  Go:
+    code: 1945
+    comments: 118
+    blanks: 464
+    files: 23
+  Sh:
+    code: 52
+    comments: 10
+    blanks: 14
+    files: 1
+  Makefile:
+    code: 30
+    comments: 7
+    blanks: 8
+    files: 1
+  Yaml:
+    code: 30
+    comments: 0
+    blanks: 3
+    files: 1
+  Markdown:
+    code: 0
+    comments: 74
+    blanks: 49
+    files: 1
+total:
+  code: 2105
+  comments: 209
+  blanks: 541
+  files: 27
 ---
 

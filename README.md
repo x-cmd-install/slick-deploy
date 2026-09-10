@@ -24,7 +24,18 @@ x install slick-deploy
 - **Latest**: `v0.0.12` (2024-08-06)
 - **Last commit**: 2024-08-08
 - **Assets in release**: 7
-- **Published**: 2024-08-06T07:42:42Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [slick-deploy_0.0.12_checksums.txt](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_checksums.txt) | 636 B | `other` |
+| [slick-deploy_0.0.12_darwin_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_amd64.tar.gz) | 3.6 MiB | `native/darwin/x64` |
+| [slick-deploy_0.0.12_darwin_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_arm64.tar.gz) | 3.4 MiB | `native/darwin/arm64` |
+| [slick-deploy_0.0.12_linux_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
+| [slick-deploy_0.0.12_linux_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_arm64.tar.gz) | 3.2 MiB | `native/linux/arm64` |
+| [slick-deploy_0.0.12_windows_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_amd64.tar.gz) | 3.7 MiB | `native/win/x64` |
+| [slick-deploy_0.0.12_windows_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_arm64.tar.gz) | 3.3 MiB | `native/win/arm64` |
 
 ## Popularity
 
@@ -59,8 +70,8 @@ Total: **2,057** lines of code across **27** files in the top 5 languages.
 Install metadata for slick-deploy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `slick-deploy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/slick-deploy.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/slick-deploy.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:54:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:44:49Z._

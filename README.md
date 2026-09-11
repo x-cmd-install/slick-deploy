@@ -14,6 +14,18 @@ CLI tool to declaratively deploy containers with Caddy
 x install slick-deploy
 ```
 
+## Code insight
+
+Total: **2,057** lines of code across **27** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 1,945 | 118 | 464 | 23 |
+| Sh | 52 | 10 | 14 | 1 |
+| Makefile | 30 | 7 | 8 | 1 |
+| Yaml | 30 | 0 | 3 | 1 |
+| Markdown | 0 | 74 | 49 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/scmmishra/slick-deploy>
@@ -24,18 +36,6 @@ x install slick-deploy
 - **Latest**: `v0.0.12` (2024-08-06)
 - **Last commit**: 2024-08-08
 - **Assets in release**: 7
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [slick-deploy_0.0.12_checksums.txt](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_checksums.txt) | 636 B | `other` |
-| [slick-deploy_0.0.12_darwin_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_amd64.tar.gz) | 3.6 MiB | `native/darwin/x64` |
-| [slick-deploy_0.0.12_darwin_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_arm64.tar.gz) | 3.4 MiB | `native/darwin/arm64` |
-| [slick-deploy_0.0.12_linux_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
-| [slick-deploy_0.0.12_linux_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_arm64.tar.gz) | 3.2 MiB | `native/linux/arm64` |
-| [slick-deploy_0.0.12_windows_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_amd64.tar.gz) | 3.7 MiB | `native/win/x64` |
-| [slick-deploy_0.0.12_windows_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_arm64.tar.gz) | 3.3 MiB | `native/win/arm64` |
 
 ## Popularity
 
@@ -49,21 +49,24 @@ x install slick-deploy
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-## Code size
+## Release assets
 
-Total: **2,057** lines of code across **27** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 1,945 | 118 | 464 | 23 |
-| Sh | 52 | 10 | 14 | 1 |
-| Makefile | 30 | 7 | 8 | 1 |
-| Yaml | 30 | 0 | 3 | 1 |
-| Markdown | 0 | 74 | 49 | 1 |
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [slick-deploy_0.0.12_checksums.txt](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_checksums.txt) | 636 B | `other` |
+| [slick-deploy_0.0.12_darwin_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_amd64.tar.gz) | 3.6 MiB | `native/darwin/x64` |
+| [slick-deploy_0.0.12_darwin_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_arm64.tar.gz) | 3.4 MiB | `native/darwin/arm64` |
+| [slick-deploy_0.0.12_linux_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
+| [slick-deploy_0.0.12_linux_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_arm64.tar.gz) | 3.2 MiB | `native/linux/arm64` |
+| [slick-deploy_0.0.12_windows_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_amd64.tar.gz) | 3.7 MiB | `native/win/x64` |
+| [slick-deploy_0.0.12_windows_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_arm64.tar.gz) | 3.3 MiB | `native/win/arm64` |
 
 ## Improve this data
 
@@ -74,4 +77,4 @@ Install metadata for slick-deploy lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:44:49Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T00:05:45Z._

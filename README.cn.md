@@ -14,6 +14,18 @@ CLI tool to declaratively deploy containers with Caddy
 x install slick-deploy
 ```
 
+## 代码洞察
+
+合计: **2,057** 行代码（覆盖前 5 种语言、共 **27** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 1,945 | 118 | 464 | 23 |
+| Sh | 52 | 10 | 14 | 1 |
+| Makefile | 30 | 7 | 8 | 1 |
+| Yaml | 30 | 0 | 3 | 1 |
+| Markdown | 0 | 74 | 49 | 1 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/scmmishra/slick-deploy>
@@ -24,18 +36,6 @@ x install slick-deploy
 - **最新版本**: `v0.0.12` (2024-08-06)
 - **最近提交**: 2024-08-08
 - **Release 含资产**: 7 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [slick-deploy_0.0.12_checksums.txt](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_checksums.txt) | 636 B | `other` |
-| [slick-deploy_0.0.12_darwin_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_amd64.tar.gz) | 3.6 MiB | `native/darwin/x64` |
-| [slick-deploy_0.0.12_darwin_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_arm64.tar.gz) | 3.4 MiB | `native/darwin/arm64` |
-| [slick-deploy_0.0.12_linux_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
-| [slick-deploy_0.0.12_linux_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_arm64.tar.gz) | 3.2 MiB | `native/linux/arm64` |
-| [slick-deploy_0.0.12_windows_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_amd64.tar.gz) | 3.7 MiB | `native/win/x64` |
-| [slick-deploy_0.0.12_windows_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_arm64.tar.gz) | 3.3 MiB | `native/win/arm64` |
 
 ## 流行度
 
@@ -49,21 +49,24 @@ x install slick-deploy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-## 代码规模
+## Release 资产
 
-合计: **2,057** 行代码（覆盖前 5 种语言、共 **27** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 1,945 | 118 | 464 | 23 |
-| Sh | 52 | 10 | 14 | 1 |
-| Makefile | 30 | 7 | 8 | 1 |
-| Yaml | 30 | 0 | 3 | 1 |
-| Markdown | 0 | 74 | 49 | 1 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [slick-deploy_0.0.12_checksums.txt](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_checksums.txt) | 636 B | `other` |
+| [slick-deploy_0.0.12_darwin_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_amd64.tar.gz) | 3.6 MiB | `native/darwin/x64` |
+| [slick-deploy_0.0.12_darwin_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_darwin_arm64.tar.gz) | 3.4 MiB | `native/darwin/arm64` |
+| [slick-deploy_0.0.12_linux_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
+| [slick-deploy_0.0.12_linux_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_linux_arm64.tar.gz) | 3.2 MiB | `native/linux/arm64` |
+| [slick-deploy_0.0.12_windows_amd64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_amd64.tar.gz) | 3.7 MiB | `native/win/x64` |
+| [slick-deploy_0.0.12_windows_arm64.tar.gz](https://github.com/scmmishra/slick-deploy/releases/download/v0.0.12/slick-deploy_0.0.12_windows_arm64.tar.gz) | 3.3 MiB | `native/win/arm64` |
 
 ## 改进这些数据
 
@@ -74,4 +77,4 @@ slick-deploy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:44:49Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T00:05:46Z._
